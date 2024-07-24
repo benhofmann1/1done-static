@@ -114,7 +114,9 @@ a:hover {
 #copyright {
   font-size: 0.8rem;
 }
-.legal {
-  position: fixed;
-  bottom: 5%;
+
+#legal-links {
+  width: 130px;
+  float: left;
+  margin-top: 320px;
 }
