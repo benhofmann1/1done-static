@@ -12,7 +12,7 @@ body {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto;
-  color: #454545;
+  color: rgb(69, 69, 69);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -24,8 +24,8 @@ img {
 
 a {
   text-decoration: none;
-  color: #454545;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
+  color: rgb(69, 69, 69);
+  transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 a:hover {
@@ -49,6 +49,10 @@ a:hover {
   color: rgb(253, 202, 64);
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+.header-link:hover {
+  color: rgb(69, 69, 69);
 }
 
 .float-left {
